@@ -1,0 +1,516 @@
+{
+  "settings": {
+    "show_progress": true,
+    "shuffle_options": true,
+    "show_explanation": true,
+    "shuffle_questions": true
+  },
+   "questions": [
+       {
+    "id": "q1",
+    "type": "single_choice",
+    "question": "Las reglas de oro de los SGSI son:",
+    "options": [
+      "La privacidad y el anonimato.",
+      "La autenticación y la autorización.",
+      "La autenticación, la autorización y la auditabilidad."
+    ],
+    "correct_answer": "La autenticación, la autorización y la auditabilidad.",
+    "explanation": "Los Sistemas de Gestión de Seguridad de la Información (SGSI) se basan en asegurar no solo quién accede (autenticación) y a qué (autorización), sino también en mantener un registro de dichas acciones para su verificación posterior (auditabilidad) [1]."
+  },
+  {
+    "id": "q2",
+    "type": "single_choice",
+    "question": "Si una persona no autorizada modifica la información disponible en nuestra base de datos, está afectando a:",
+    "options": [
+      "Integridad.",
+      "Disponibilidad.",
+      "Confidencialidad."
+    ],
+    "correct_answer": "Integridad.",
+    "explanation": "La integridad es el principio de seguridad que garantiza que la información se mantiene exacta y completa, protegiéndola frente a alteraciones no autorizadas [1]."
+  },
+  {
+    "id": "q3",
+    "type": "single_choice",
+    "question": "La auditoría de protección de datos personales:",
+    "options": [
+      "Es voluntaria.",
+      "En realidad es un control interno.",
+      "Es obligatoria."
+    ],
+    "correct_answer": "Es obligatoria.",
+    "explanation": "Este tipo de auditoría es un requisito legal normativo para las organizaciones que manejan datos sensibles, lo que la convierte en una actividad de cumplimiento obligatorio y no opcional [2, 3]."
+  },
+  {
+    "id": "q4",
+    "type": "single_choice",
+    "question": "Nmap es un ejemplo:",
+    "options": [
+      "De test de penetración.",
+      "De fingerprinting activo.",
+      "De fingerprinting pasivo."
+    ],
+    "correct_answer": "De fingerprinting activo.",
+    "explanation": "Nmap es una herramienta que interactúa directamente con el sistema objetivo enviando paquetes para identificar puertos y servicios, lo que se clasifica como reconocimiento o fingerprinting activo [4]."
+  },
+  {
+    "id": "q5",
+    "type": "single_choice",
+    "question": "Los tres principios fundamentales de los SGSI son:",
+    "options": [
+      "Confidencialidad, Integridad y Disponibilidad",
+      "Confidencialidad, Privacidad y Autenticación",
+      "Control, Integridad y Duplicación"
+    ],
+    "correct_answer": "Confidencialidad, Integridad y Disponibilidad",
+    "explanation": "Conocida como la tríada de la seguridad (CIA), estos tres pilares son los objetivos centrales para asegurar la información en cualquier sistema de gestión [5, 6]."
+  },
+  {
+    "id": "q6",
+    "type": "single_choice",
+    "question": "¿En qué fase del proceso genérico de una auditoría informática se establece el plan de comunicación?",
+    "options": [
+      "Preparación de la auditoría.",
+      "Realización de la auditoría.",
+      "Emisión y distribución del informe de auditoría."
+    ],
+    "correct_answer": "Preparación de la auditoría.",
+    "explanation": "El plan de comunicación, que define cómo se informará de los hallazgos y el progreso, debe establecerse durante la fase inicial de planificación y preparación [7]."
+  },
+  {
+    "id": "q7",
+    "type": "single_choice",
+    "question": "DAST:",
+    "options": [
+      "Es un estándar SDC.",
+      "Es un marco de herramientas fuzzing.",
+      "Son las siglas inglesas para herramientas de análisis dinámico de aplicaciones."
+    ],
+    "correct_answer": "Son las siglas inglesas para herramientas de análisis dinámico de aplicaciones.",
+    "explanation": "DAST corresponde a Dynamic Application Security Testing, una metodología que analiza aplicaciones en tiempo de ejecución para encontrar vulnerabilidades [8-10]."
+  },
+  {
+    "id": "q8",
+    "type": "single_choice",
+    "question": "El gobierno de las TIC se apoya:",
+    "options": [
+      "En seis principios.",
+      "En cuatro principios.",
+      "En tres principios."
+    ],
+    "correct_answer": "En seis principios.",
+    "explanation": "Según estándares internacionales como la ISO/IEC 38500, el buen gobierno de las TIC se fundamenta en seis principios clave para dirigir y controlar la tecnología [11, 12]."
+  },
+  {
+    "id": "q9",
+    "type": "single_choice",
+    "question": "Un IDS es un control:",
+    "options": [
+      "Preventivo.",
+      "Correctivo.",
+      "Detectivo."
+    ],
+    "correct_answer": "Detectivo.",
+    "explanation": "Un Sistema de Detección de Intrusiones (IDS) tiene como función principal identificar y alertar sobre actividades sospechosas que ya están ocurriendo o han ocurrido, clasificándose como un control detectivo [3, 13]."
+  },
+  {
+    "id": "q10",
+    "type": "single_choice",
+    "question": "¿Cuál de las siguientes afirmaciones es falsa sobre el gobierno TIC?",
+    "options": [
+      "El gobierno TIC opera ex ante.",
+      "La adquisición y gestión de activos TIC es cometido del gobierno TIC.",
+      "El gobierno TIC opera ex post."
+    ],
+    "correct_answer": "El gobierno TIC opera ex post.",
+    "explanation": "El gobierno TIC es proactivo y opera antes de los eventos (ex ante), mientras que la auditoría es la que suele operar después de los hechos (ex post) para verificar el cumplimiento [14]."
+  },
+  {
+    "id": "q11",
+    "type": "single_choice",
+    "question": "La certificación CISA está asociada a:",
+    "options": [
+      "ISACA.",
+      "(ISC)2.",
+      "AENOR."
+    ],
+    "correct_answer": "ISACA.",
+    "explanation": "Certified Information Systems Auditor (CISA) es la certificación líder mundial para profesionales de la auditoría, control y seguridad de sistemas, emitida por ISACA [15]."
+  },
+  {
+    "id": "q12",
+    "type": "single_choice",
+    "question": "En el contexto de un plan de continuidad de negocio, un error en la cadena de continuidad se denomina:",
+    "options": [
+      "Ataque.",
+      "Interrupción.",
+      "Crisis."
+    ],
+    "correct_answer": "Interrupción.",
+    "explanation": "Cualquier suceso que rompa el flujo normal de las operaciones y detenga la cadena de servicios se define técnicamente como una interrupción en el plan de continuidad [16, 17]."
+  },
+  {
+    "id": "q13",
+    "type": "single_choice",
+    "question": "La ingeniería inversa:",
+    "options": [
+      "Es una técnica orientada a recomponer la historia de un sistema.",
+      "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+      "Es una mala praxis de programación."
+    ],
+    "correct_answer": "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+    "explanation": "Consiste en analizar un sistema u objeto para entender su estructura interna y funcionamiento, buscando a menudo recuperar el diseño o código fuente original [18, 19]."
+  },
+  {
+    "id": "q14",
+    "type": "single_choice",
+    "question": "Una de estas características, NO es una característica del aseguramiento de la información:",
+    "options": [
+      "Calidad",
+      "Confidencialidad",
+      "Integridad"
+    ],
+    "correct_answer": "Calidad",
+    "explanation": "El aseguramiento de la información se centra específicamente en la tríada de seguridad (confidencialidad, integridad y disponibilidad); la calidad es un concepto relacionado pero no es una característica intrínseca del modelo de aseguramiento estándar [5]."
+  },
+  {
+    "id": "q15",
+    "type": "single_choice",
+    "question": "El principio de conformidad compete a:",
+    "options": [
+      "El gobierno de negocio.",
+      "El gobierno TIC.",
+      "El gobierno corporativo."
+    ],
+    "correct_answer": "El gobierno TIC.",
+    "explanation": "Dentro del marco de gobierno de las tecnologías, asegurar que los sistemas cumplan con las leyes, normas y políticas internas es responsabilidad directa del gobierno TIC [11, 12, 20]."
+  },
+  {
+    "id": "ex25_1_q1",
+    "type": "single_choice",
+    "question": "El principio de conformidad compete a:",
+    "options": [
+      "El gobierno de negocio.",
+      "El gobierno TIC.",
+      "El gobierno corporativo."
+    ],
+    "correct_answer": "El gobierno TIC.",
+    "explanation": "Dentro del marco de la norma ISO/IEC 38500, el principio de conformidad establece que el gobierno de las TIC debe asegurar que el uso de la tecnología cumpla con las leyes y regulaciones vigentes, así como con las políticas internas de la organización [1, 2].",
+    "models": ["ex23_1 Modelo B", "ex23_2 Modelo B", "ex25_1 Modelo G"]
+  },
+  {
+    "id": "ex25_1_q2",
+    "type": "single_choice",
+    "question": "El gobierno de las TIC se apoya:",
+    "options": [
+      "En seis principios.",
+      "En cuatro principios.",
+      "En tres principios."
+    ],
+    "correct_answer": "En seis principios.",
+    "explanation": "El estándar internacional ISO/IEC 38500 define seis principios fundamentales para el buen gobierno de las TI: Responsabilidad, Estrategia, Adquisición, Rendimiento, Conformidad y Comportamiento Humano [1-3].",
+    "models": ["ex23_1 Modelo B", "ex23_2 Modelo B", "ex25_1 Modelo G"]
+  },
+  {
+    "id": "ex25_1_q21",
+    "type": "single_choice",
+    "question": "¿Cuál de las siguientes auditorías es obligatoria?",
+    "options": [
+      "La auditoría externa.",
+      "La auditoría de verificación.",
+      "La auditoría de certificación."
+    ],
+    "correct_answer": "La auditoría externa.",
+    "explanation": "En muchos marcos normativos y legales (como la auditoría de cuentas o auditorías específicas de cumplimiento normativo), la auditoría externa es impuesta por ley o por terceros reguladores, a diferencia de la de certificación que suele ser voluntaria para obtener un sello de calidad [4, 5].",
+    "models": ["ex23_1 Modelo B", "ex23_2 Modelo B", "ex25_1 Modelo G"]
+  },
+  {
+    "id": "ex25_1_q22",
+    "type": "single_choice",
+    "question": "Un cortafuegos es un control:",
+    "options": [
+      "Físico.",
+      "Lógico.",
+      "Disuasorio."
+    ],
+    "correct_answer": "Lógico.",
+    "explanation": "Los cortafuegos (firewalls) son mecanismos de seguridad basados en software o hardware configurado mediante reglas de filtrado de tráfico, lo que los clasifica técnicamente como controles lógicos o técnicos [4, 5].",
+    "models": ["ex23_1 Modelo B", "ex23_2 Modelo B", "ex25_1 Modelo G"]
+  },
+  {
+    "id": "ex25_1_q23",
+    "type": "single_choice",
+    "question": "Un IDS es un control:",
+    "options": [
+      "Detectivo.",
+      "Preventivo.",
+      "Lógico."
+    ],
+    "correct_answer": "Detectivo.",
+    "explanation": "Un Sistema de Detección de Intrusiones (IDS) tiene como función principal monitorizar eventos en un sistema o red para identificar actividades sospechosas o ataques en curso, emitiendo alertas para su análisis posterior [4-7].",
+    "models": ["ex23_1 Modelo B", "ex23_2 Modelo B", "ex25_1 Modelo G", "ex24_4", "examen"]
+  },
+  {
+    "id": "ex25_2_q1",
+    "type": "single_choice",
+    "question": "El principio de ejecución compete a:",
+    "options": [
+      "El gobierno de negocio.",
+      "El gobierno TIC.",
+      "El gobierno corporativo."
+    ],
+    "correct_answer": "El gobierno TIC.",
+    "explanation": "El gobierno de las TIC se encarga de dirigir y controlar el uso actual y futuro de las TI, lo cual incluye supervisar la ejecución de los planes y el rendimiento de los sistemas para asegurar que se alineen con los objetivos estratégicos [8, 9].",
+    "models": ["ex24_4", "ex25_2 Modelo A"]
+  },
+  {
+    "id": "ex25_2_q25",
+    "type": "single_choice",
+    "question": "¿Cuál es la función esencial de un sistema IDS?",
+    "options": [
+      "Detección de actividades anormales.",
+      "Prevención automática de intrusiones.",
+      "Verificar un sistema en busca de vulnerabilidades."
+    ],
+    "correct_answer": "Detección de actividades anormales.",
+    "explanation": "A diferencia de un IPS (que previene), la función núcleo de un IDS es la detección y registro de comportamientos que se desvían de los patrones normales o firmas de ataque conocidas [6, 10].",
+    "models": ["ex24_4", "ex25_2 Modelo A"]
+  },
+  {
+    "id": "ex25_2_q26",
+    "type": "single_choice",
+    "question": "Con el objeto de asegurar la privacidad e integridad de los datos, las conexiones entre cortafuegos sobre redes públicas deberían usar:",
+    "options": [
+      "Certificados digitales.",
+      "VPNs y cifrado.",
+      "Subredes blindadas."
+    ],
+    "correct_answer": "VPNs y cifrado.",
+    "explanation": "Para proteger la información que viaja por una red insegura (como Internet) entre dos puntos de confianza (cortafuegos), es fundamental establecer túneles VPN que cifren el contenido para garantizar su confidencialidad e integridad [6, 10].",
+    "models": ["ex24_4", "ex25_2 Modelo A"]
+  },
+  {
+    "id": "ex25_2_q27",
+    "type": "single_choice",
+    "question": "¿En qué capa del modelo OSI operan los cortafuegos de filtrado de paquetes?",
+    "options": [
+      "Capa de Aplicación (7).",
+      "Capa de Red (3).",
+      "Capa de Enlace de datos (2)."
+    ],
+    "correct_answer": "Capa de Red (3).",
+    "explanation": "Los firewalls de filtrado de paquetes trabajan analizando las cabeceras de los paquetes IP (direcciones de origen/destino, protocolo), funciones que corresponden a la capa 3 (Red) del modelo OSI [6, 10].",
+    "models": ["ex24_4", "ex25_2 Modelo A"]
+  },
+  {
+    "id": "ex25_q1",
+    "type": "single_choice",
+    "question": "¿Cuál de las siguientes afirmaciones es falsa sobre el gobierno TIC?",
+    "options": [
+      "El gobierno TIC opera ex ante.",
+      "La adquisición y gestión de activos TIC es cometido del gobierno TIC.",
+      "El gobierno TIC opera ex post."
+    ],
+    "correct_answer": "El gobierno TIC opera ex post.",
+    "explanation": "El gobierno TIC es proactivo y orientador (ex ante), mientras que la auditoría es la función que opera típicamente ex post para verificar el cumplimiento de lo establecido [11].",
+    "models": ["ex25 Modelo C"]
+  },
+  {
+    "id": "ex22_1_q1",
+    "type": "single_choice",
+    "question": "¿Cuál de los siguientes principios de gobernanza TIC se encarga de satisfacer la legislación vigente?",
+    "options": [
+      "Estrategia.",
+      "Conformidad.",
+      "Responsabilidad."
+    ],
+    "correct_answer": "Conformidad.",
+    "explanation": "El principio de conformidad se centra específicamente en asegurar que el sistema de TI cumple con las obligaciones legales y normativas aplicables [12].",
+    "models": ["ex22_1"]
+  },
+  {
+    "id": "exam_q25",
+    "type": "single_choice",
+    "question": "¿Cuál de los siguientes métodos de backup es el más adecuado para un almacenamiento externo, fuera el emplazamiento habitual de nuestro negocio?",
+    "options": [
+      "Backup total.",
+      "Backup diferencial.",
+      "Backup incremental."
+    ],
+    "correct_answer": "Backup total.",
+    "explanation": "El backup total es el más seguro para almacenamiento off-site (fuera del emplazamiento) porque contiene toda la información necesaria para una recuperación completa de forma independiente, sin depender de otros juegos de cintas o archivos intermedios [13].",
+    "models": ["examen"]
+  },
+  {
+    "id": "exam_q30",
+    "type": "single_choice",
+    "question": "Según el NIST el plan de continuidad de negocio consta de:",
+    "options": [
+      "4 fases.",
+      "3 fases.",
+      "2 fases."
+    ],
+    "correct_answer": "4 fases.",
+    "explanation": "El marco del NIST para la planificación de contingencias y continuidad de negocio típicamente se estructura en cuatro fases principales: iniciación, análisis de impacto, desarrollo del plan y mantenimiento/ejecución [7].",
+    "models": ["examen"]
+  },
+  {
+    "id": "casi_q26",
+    "type": "single_choice",
+    "question": "Las pruebas informáticas:",
+    "options": [
+      "No tienen fuerza probatoria en sede judicial.",
+      "Tienen fuerza probatoria si y sólo si existe evidencia directa y se respeta la cadena de custodia.",
+      "Sólo tienen valor cuando se investigan delitos de evasión fiscal."
+    ],
+    "correct_answer": "Tienen fuerza probatoria si y sólo si existe evidencia directa y se respeta la cadena de custodia.",
+    "explanation": "Para que una evidencia digital sea admitida en un proceso judicial, debe garantizarse su autenticidad e integridad a través de un registro riguroso de quién la manejó y cómo, conocido como cadena de custodia [14].",
+    "models": ["examen_CASI"]
+  },
+  {
+    "id": "casi_q27",
+    "type": "single_choice",
+    "question": "Un programa de seguridad exige un equilibrio entre:",
+    "options": [
+      "Riesgos y contramedidas.",
+      "Coste y beneficio.",
+      "Usuarios y administradores."
+    ],
+    "correct_answer": "Riesgos y contramedidas.",
+    "explanation": "La gestión de seguridad informática se basa en identificar los riesgos a los que están expuestos los activos y aplicar las contramedidas o controles adecuados cuya eficacia y coste estén equilibrados con la magnitud del riesgo [14].",
+    "models": ["examen_CASI"]
+  },
+  {
+    "id": "ex22_1_q28",
+    "type": "single_choice",
+    "question": "¿Qué método de backup requiere utilizar el mayor número de cintas para una restauración completa si se usa una cinta distinta cada noche con rotación de cinco días?",
+    "options": [
+      "Backup total.",
+      "Backup diferencial.",
+      "Backup incremental."
+    ],
+    "correct_answer": "Backup incremental.",
+    "explanation": "El backup incremental guarda solo los cambios realizados desde la última copia (ya sea total o incremental). Para una restauración completa, se necesita la última copia total más todas las copias incrementales realizadas hasta la fecha del fallo, lo que implica manejar un mayor número de soportes físicos.",
+    "models": ["ex22_1", "ex23_3", "ex25_4"]
+  },
+  {
+    "id": "ex22_1_q29",
+    "type": "single_choice",
+    "question": "¿Cuál de los siguientes métodos de backup es el más adecuado para un almacenamiento externo, fuera del emplazamiento habitual de nuestro negocio?",
+    "options": [
+      "Backup total.",
+      "Backup diferencial.",
+      "Backup incremental."
+    ],
+    "correct_answer": "Backup total.",
+    "explanation": "Para el almacenamiento off-site, el backup total es el más indicado porque es autónomo; contiene toda la información necesaria para recuperar el sistema sin depender de otras cintas que podrían estar en ubicaciones distintas.",
+    "models": ["ex22_1", "ex23_3", "ex25_4", "examen"]
+  },
+  {
+    "id": "tema7_q9",
+    "type": "single_choice",
+    "question": "Nmap es un ejemplo:",
+    "options": [
+      "De test de penetración.",
+      "De fingerprinting activo.",
+      "De fingerprinting pasivo."
+    ],
+    "correct_answer": "De fingerprinting activo.",
+    "explanation": "Nmap interactúa activamente con el objetivo enviando paquetes diseñados para provocar una respuesta del sistema y así determinar puertos abiertos, servicios y versiones de sistemas operativos.",
+    "models": ["Tema 7"]
+  },
+  {
+    "id": "ex23_4_q1",
+    "type": "single_choice",
+    "question": "¿Qué actor no forma parte de la gobernanza TIC de una empresa?",
+    "options": [
+      "El usuario final.",
+      "El CIO.",
+      "El auditor."
+    ],
+    "correct_answer": "El auditor.",
+    "explanation": "El auditor es una figura de control externa o interna que evalúa el cumplimiento y la eficacia, pero no forma parte de los órganos de gobierno que dirigen y toman decisiones estratégicas sobre las TIC (como el CIO).",
+    "models": ["ex23_4"]
+  },
+  {
+    "id": "ex23_4_q2",
+    "type": "single_choice",
+    "question": "La certificación CISA está asociada a:",
+    "options": [
+      "ISACA.",
+      "(ISC)2.",
+      "AENOR."
+    ],
+    "correct_answer": "ISACA.",
+    "explanation": "CISA (Certified Information Systems Auditor) es la certificación global de referencia para auditores de sistemas, gestionada y emitida por la asociación internacional ISACA.",
+    "models": ["ex23_4", "Tema 12"]
+  },
+  {
+    "id": "ex23_3_q35",
+    "type": "single_choice",
+    "question": "El desarrollo de un sistema de información consta de una serie de fases según el SDLC estándar:",
+    "options": [
+      "FASE 1. Iniciación; FASE 2. Desarrollo y adquisición; FASE 3. Implementación; FASE 4. Operación y mantenimiento; y FASE 5. Terminación.",
+      "FASE 1. Iniciación; FASE 2. Desarrollo y adquisición; FASE 3. Implementación; y FASE 4. Operación y mantenimiento.",
+      "FASE 1. Iniciación; FASE 2. Implementación; FASE 3. Operación y mantenimiento; y FASE 4. Terminación."
+    ],
+    "correct_answer": "FASE 1. Iniciación; FASE 2. Desarrollo y adquisición; FASE 3. Implementación; FASE 4. Operación y mantenimiento; y FASE 5. Terminación.",
+    "explanation": "El ciclo de vida de desarrollo de sistemas (SDLC) completo incluye desde la concepción inicial hasta la fase final de retirada o terminación del sistema cuando deja de ser útil.",
+    "models": ["ex23_3", "ex23_4", "ex25_2"]
+  },
+  {
+    "id": "ex24_4_q13",
+    "type": "single_choice",
+    "question": "La ingeniería inversa:",
+    "options": [
+      "Es una técnica orientada a recomponer la historia de un sistema mediante logs.",
+      "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+      "Es una mala praxis de programación."
+    ],
+    "correct_answer": "Tiene por objeto inferir el código fuente asociado a una cierta aplicación.",
+    "explanation": "La ingeniería inversa se utiliza para analizar un binario o ejecutable con el fin de comprender su funcionamiento interno y, en lo posible, reconstruir el código fuente original o su lógica de diseño.",
+    "models": ["ex24_4", "ex25_2"]
+  },
+  {
+    "id": "exam_q30_nist",
+    "type": "single_choice",
+    "question": "Según el NIST el plan de continuidad de negocio consta de:",
+    "options": [
+      "4 fases.",
+      "3 fases.",
+      "2 fases."
+    ],
+    "correct_answer": "4 fases.",
+    "explanation": "El NIST estructura la planificación de contingencias en cuatro fases críticas: fase de activación/notificación, fase de recuperación, fase de reconstitución y mantenimiento del plan.",
+    "models": ["examen"]
+  },
+  {
+    "id": "casi_q26_evidencia",
+    "type": "single_choice",
+    "question": "Las pruebas informáticas:",
+    "options": [
+      "No tienen fuerza probatoria en sede judicial.",
+      "Tienen fuerza probatoria si existe evidencia directa y se respeta la cadena de custodia.",
+      "Sólo tienen valor en delitos de evasión fiscal."
+    ],
+    "correct_answer": "Tienen fuerza probatoria si existe evidencia directa y se respeta la cadena de custodia.",
+    "explanation": "Para que un elemento digital sea admitido como prueba, es imperativo demostrar que no ha sido alterado, lo cual se logra mediante el mantenimiento estricto de la cadena de custodia desde su recolección.",
+    "models": ["examen_CASI"]
+  },
+  {
+    "id": "casi_q27_equilibrio",
+    "type": "single_choice",
+    "question": "Un programa de seguridad exige un equilibrio entre:",
+    "options": [
+      "Riesgos y contramedidas.",
+      "Coste y beneficio.",
+      "Usuarios y administradores."
+    ],
+    "correct_answer": "Riesgos y contramedidas.",
+    "explanation": "El objetivo fundamental de la seguridad de la información es identificar los riesgos que amenazan los activos y seleccionar las contramedidas (controles) que mitiguen esos riesgos de forma proporcional.",
+    "models": ["examen_CASI"]
+  }
+
+   ]
+}
